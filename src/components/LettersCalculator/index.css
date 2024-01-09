@@ -1,0 +1,56 @@
+/* Write your code here. */
+.bg-container {
+  background-image: linear-gradient(to right, #1d976c, #93f9b9);
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 100px;
+}
+.container1 {
+  display: flex;
+  flex-direction: row;
+}
+
+.con1 {
+  display: flex;
+  flex-direction: column;
+}
+.image {
+  width: 600px;
+  height: 400px;
+}
+.h1 {
+  color: #ffffff;
+  font-family: 'roboto';
+  font-size: 40px;
+}
+.label-element {
+  color: #ffffff;
+  font-family: 'roboto';
+  margin-bottom: 10px;
+}
+.input-element {
+  border-color: white;
+  background-color: transparent;
+  margin-bottom: 40px;
+  margin-top: 5px;
+  height: 30px;
+  color: white;
+  width: 300px;
+  border-radius: 10px;
+}
+.button {
+  width: 200px;
+  height: 50px;
+  color: green;
+  border-radius: 20px;
+  background-color: white;
+  padding: 15px;
+  font-family: 'roboto';
+  font-weight: bold;
+  border-width: 0px;
+  font-size: 18px;
+}
